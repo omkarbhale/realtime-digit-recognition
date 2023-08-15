@@ -16,7 +16,8 @@ function draw() {
     }
 }
 
-function keyPressed() {
+function keyPressed(e) {
+    if (e.keyCode !== 32) return;
     background(0);
 }
 
